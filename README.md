@@ -1,3 +1,4 @@
+rails g migration add_published_status_to_posts published_status:string --no-test-framework
 # Rails Generators
 
 If you go down the list on all of the tasks necessary to build out CRUD functionality in an application, it's quite extensive. From creating database tables, configuring views, and drawing individual routes, the feature builds can be time consuming and bug prone. Wouldn't it be nice if there was a more efficient way of integrating standard features instead of having to build them manually each time?
